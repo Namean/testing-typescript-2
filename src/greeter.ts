@@ -1,5 +1,5 @@
-function Greeter(greeting: string) {
-  this.greeting = greeting;
+function greeter(greeting: string) {
+  return `Hello, ${greeting}`;
 }
 
-export default Greeter;
+export default greeter;
